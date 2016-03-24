@@ -36,7 +36,7 @@ The goal is making full use of the Swift Package Manager.💥
   
   - https://gist.github.com/norio-nomura/96201467ffd37c077f7c
   
-3. Please download from the latest [release](https://github.com/JPMartha/APIHimotoKit/releases) and deploy at the root directory of your project. 
+3. Please download from the latest [release](https://github.com/JPMartha/APIHimotoKit/releases) and deploy the `Package.swift` and the `Makefile` at the root directory of your project. 
 
 4. Run the following command:
 
