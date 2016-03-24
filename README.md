@@ -2,7 +2,7 @@
 
 __APIHimotoKit__ is an ___unofficial___ tool for trials of the [Swift Package Manager](https://github.com/apple/swift-package-manager/blob/master/README.md).
 
-Currently, it downloads the source code of the [APIKit](https://github.com/ishkawa/APIKit) and the [Himotoki](https://github.com/ikesyo/Himotoki) from GitHub.
+Currently, it JUST downloads the source code of the [APIKit](https://github.com/ishkawa/APIKit) and the [Himotoki](https://github.com/ikesyo/Himotoki) from GitHub.
 
 The goal is making full use of the Swift Package Manager.💥
 
@@ -32,7 +32,7 @@ The goal is making full use of the Swift Package Manager.💥
   dyld: Library not loaded: @rpath/libswiftCore.dylib
   ```
   
-  You might fix that from the terminal with the following command:
+  You might be able to fix that from the terminal with the following command:
   
   - https://gist.github.com/norio-nomura/96201467ffd37c077f7c
   
