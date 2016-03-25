@@ -1,11 +1,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "Pokemon",
+    name: "APIHimotoKit",
     dependencies: [
-        .Package(url: "https://github.com/ishkawa/APIKit.git",
-            Version(2, 0, 0, prereleaseIdentifiers: ["beta", "2"])),
-        .Package(url: "https://github.com/ikesyo/Himotoki.git",
-            Version(2, 0, 0, prereleaseIdentifiers: ["beta", "2"])),
-    ]
+        .Package(url: "https://github.com/JPMartha/APIKit.git",
+            Version(2, 0, 0)),
+        .Package(url: "https://github.com/JPMartha/Himotoki.git",
+            Version(2, 0, 0))
+    ],
+    exclude: ["Documentation"]
 )
