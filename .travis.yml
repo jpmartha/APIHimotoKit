@@ -1,7 +1,7 @@
 language: objective-c
 osx_image: xcode7.3
 script:
-  - swift build
+  - swift build --fetch
 before_install:
   - export SWIFT_VERSION=swift-DEVELOPMENT-SNAPSHOT-2016-03-24-a
   - curl -O https://swift.org/builds/development/xcode/${SWIFT_VERSION}/${SWIFT_VERSION}-osx.pkg
