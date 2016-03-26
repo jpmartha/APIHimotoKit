@@ -1,4 +1,4 @@
-# APIHimotoKit [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+# APIHimotoKit [![Build Status](https://travis-ci.org/JPMartha/APIHimotoKit.svg?branch=master)](https://travis-ci.org/JPMartha/APIHimotoKit) [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
 __APIHimotoKit__ is an ___unofficial___ tool for trials of the [Swift Package Manager](https://github.com/apple/swift-package-manager/blob/master/README.md).
 
