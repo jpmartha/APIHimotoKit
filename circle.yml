@@ -7,6 +7,10 @@ dependencies:
     - curl -O https://swift.org/builds/development/xcode/${SWIFT_VERSION}/${SWIFT_VERSION}-osx.pkg
     - sudo installer -pkg ${SWIFT_VERSION}-osx.pkg -target /
     - export TOOLCHAINS=swift
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init
 test:
   override:
     - swift build --fetch
