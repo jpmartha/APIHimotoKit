@@ -1,6 +1,6 @@
 machine:
   xcode:
-    version: "7.2"
+    version: "7.3"
 dependencies:
   override:
     - export SWIFT_VERSION=swift-DEVELOPMENT-SNAPSHOT-2016-03-24-a
