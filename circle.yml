@@ -9,4 +9,4 @@ dependencies:
     - export TOOLCHAINS=swift
 test:
   override:
-    - swift build --fetch 
+    - swift build --fetch
